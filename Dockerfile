@@ -15,4 +15,6 @@ RUN chmod +x /usr/local/bin/ecs-cli
 RUN yarn global add serverless@${RELEASE}
 RUN yarn global add @aws-amplify/cli
 
+RUN npm install -g npm@7
+
 WORKDIR /app

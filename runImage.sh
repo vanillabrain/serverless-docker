@@ -1,1 +1,1 @@
-docker run --rm --name serverless-docker -v ./:/app vanillabrain/serverless-docker:1.0 .
+docker run -it --rm vanillabrain/serverless-docker /bin/bash
